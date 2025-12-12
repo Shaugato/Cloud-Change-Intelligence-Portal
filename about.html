@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Cloud Change Intelligence Portal</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="changes.html">Changes</a>
+        <a href="about.html">About</a>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <h1 class="fade-up">About the Portal</h1>
+            <p class="fade-up" style="max-width: 800px;">
+                The Cloud Change Intelligence Portal is an event‑driven, cost‑conscious system that captures and surfaces security‑relevant changes in your AWS environment. By leveraging native AWS services like CloudTrail, EventBridge, Lambda and S3, it generates an immutable feed of actions— enriched with context and risk scores— and publishes them as a static site.
+            </p>
+
+            <h2 class="fade-up">Design Philosophy</h2>
+            <ul class="fade-up" style="max-width: 800px;">
+                <li><strong>Minimal cost:</strong> Uses static hosting and serverless compute so you only pay for what you use.</li>
+                <li><strong>High signal, low noise:</strong> Filters down to IAM, networking and storage actions that matter most.</li>
+                <li><strong>Evidence first:</strong> Each record links back to the CloudTrail event so you can audit with confidence.</li>
+                <li><strong>Secure by default:</strong> Implements least‑privilege IAM roles and does not expose raw payloads.</li>
+            </ul>
+
+            <h2 class="fade-up">Extensibility</h2>
+            <p class="fade-up" style="max-width: 800px;">
+                This project is a starting point. You can extend it with additional analytics, dashboards or integrate it with chat and notification systems. Because it’s static, hosting is essentially free— the intelligence pipeline does the heavy lifting behind the scenes.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Cloud Change Intelligence Portal
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
